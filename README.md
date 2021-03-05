@@ -1,6 +1,6 @@
-# Graph-Action-Prediction
+# Spatial-Temporal Relation Reasoning for Action Prediction in Videos
 
-# Reference
+## Reference
 ```
 @article{wu2021spatial,
   title={Spatial--Temporal Relation Reasoning for Action Prediction in Videos},
