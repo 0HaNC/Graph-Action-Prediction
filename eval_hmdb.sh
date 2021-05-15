@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python /home/wrq/IJCV/hmdb_main.py --eval --cuda --verbal  --workers 2
