@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python /home/wrq/IJCV/ucf101_main.py --eval --cuda --verbal  --workers 0
