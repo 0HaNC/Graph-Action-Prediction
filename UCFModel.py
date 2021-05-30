@@ -137,7 +137,7 @@ class TemporalRelationGraph(torch.nn.Module):
             self.subsample_scales.append(subsample_scales_tmp)# how many samples of relation to select in each forward pass
         self.n_cluster = opt.K_clusters
         
-        self.fc_fusion_scales = nn.ModuleList() # high-tech modulelist
+        self.fc_fusion_scales = nn.ModuleList() 
         for i in range(len(self.scales)):
             scale = self.scales[i]
             fc_fusion = nn.Sequential(

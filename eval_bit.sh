@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python bit_main.py --eval --cuda --verbal  --workers 2
